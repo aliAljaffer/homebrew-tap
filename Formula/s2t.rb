@@ -1,8 +1,8 @@
 class S2t < Formula
   desc "Decode Kubernetes Secrets into readable key/value pairs"
   homepage "https://github.com/alialjaffer/s2t"
-  url "https://github.com/aliAljaffer/s2t/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "b94fdd4e177d13b8a9521797461b7d5b03862c35b066756b02c935b6762c432c"
+  url "https://github.com/aliAljaffer/s2t/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "fee26ab68ffee920923671d3eaa2f19bd0d010c449fd3f3dfcbbe0b6f187c287"
   license "MIT"
   head "https://github.com/alialjaffer/s2t.git", branch: "main"
 
