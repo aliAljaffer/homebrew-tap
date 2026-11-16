@@ -1,13 +1,13 @@
 cask "fai" do
-  version "0.2.0"
-  sha256 arm:   "4a246f7a202da3e3c48e06766c7596e7bf90c7457328c3db3da5e8da3a91b8d9",
-         intel: "f73c5bdc92be2f606ff940cafd2e5fcf4d1b97ee2548daec0f2c9ef561546254"
+  version "0.3.0"
+  sha256 arm:   "d4ae458a2e4e7f2c7723d6ddfae602448c46a9790bcb98821b2723c98f0da41d",
+         intel: "c72286b567dbdcde7a1b420c56018b606c1e6f3068472ac3739d4fcf02e964b5"
 
   on_arm do
-    url "https://github.com/alialjaffer/fai/releases/download/v0.2.0/fai-#{version}-arm64-mac.zip"
+    url "https://github.com/alialjaffer/fai/releases/download/v0.3.0/fai-#{version}-arm64-mac.zip"
   end
   on_intel do
-    url "https://github.com/alialjaffer/fai/releases/download/v0.2.0/fai-#{version}-x64-mac.zip"
+    url "https://github.com/alialjaffer/fai/releases/download/v0.3.0/fai-#{version}-x64-mac.zip"
   end
 
   name "fai"
